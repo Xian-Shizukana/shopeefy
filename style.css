@@ -1,3 +1,7 @@
+body{
+    background-color:#f8f4f4;
+}
+
 .header{
     margin: 0px;
     background-image: linear-gradient(#f43d2d, #ff6533);
@@ -10,6 +14,78 @@
 .search{
     width:62%;
     margin-left: 310px;
+}
+
+.table{
+    width:100%;
+    height:auto;
+    display:table;
+}
+
+.left, .right{
+    border-collapse: collapse;
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+.nest {
+    padding-bottom: 10px;
+}
+
+.bigbox{
+    padding-left:265px;
+    padding-right:265px;
+    padding-top:20px;
+    padding-bottom:10px;
+    background-color: white;
+}
+
+.smallbox{
+    width:80%;
+    margin:auto;
+    background-color: white;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.catcontainer, .flashcontainer{
+    display:flex;
+}
+
+.catbox{
+    margin-right:0px;
+    width: 150px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: black;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #f2f2f2;
+}
+
+.flashbox{
+    color:#f07254;
+    font-family: 'Open Sans', sans-serif;
+    font-weight:bold;
+    text-align:center;
+    font-size:150%;
+    width:250px;
+}
+
+.flexcontainer{
+    display:flex;
+}
+
+.flexbox{
+    margin-right:10px;
+    margin-top:10px;
+    width: 200px;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
 }
 
 #itemsearch{
