@@ -1,11 +1,3 @@
-body{
-    background-color:#f8f4f4;
-}
-
-a{
-    text-decoration:none;
-    color: black;
-}
 
 .header{
     margin: 0px;
@@ -22,7 +14,7 @@ a{
 }
 
 .table{
-    width:100%;
+    width:101%;
     height:auto;
     display:table;
 }
@@ -116,6 +108,14 @@ a{
     margin-right: 200px;
 }
 
+#searchbarlink, #signlog, #toplink{
+    color:white;
+}
+
+#flexlink, #catlink{
+    color: black;
+}
+
 li{
     display:inline-block;
     list-style: none;
@@ -125,7 +125,12 @@ li{
     font-size: 90%;
 }
 
+a {
+    text-decoration:none;
+}
+
 body{
+    background-color:#f8f4f4;
     margin: 0px;
 }
 
